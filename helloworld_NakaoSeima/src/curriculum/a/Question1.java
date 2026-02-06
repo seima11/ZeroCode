@@ -26,8 +26,10 @@ public class Question1 {
 	 System.out.println(letter);
 	 //変数lettersの初期値を設定
 	 String letters = "a";
+	 System.out.println(letters);
 	 //変数isBooleanの初期値を設定
 	 boolean isBoolean = true;
+	 System.out.println(isBoolean);
 	 
 	 
  }
