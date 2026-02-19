@@ -27,15 +27,15 @@ public class Question2 {
 		System.out.println("子供です");
 	}
 //Q4
-	int X = 30;
-	int Y = 15;
-	int Z = 50;
-	if (X >= Y && X >= Z) {
-		System.out.println(X);
+	int x = 30;
+	int y = 15;
+	int z = 50;
+	if (x >= y && x >= z) {
+		System.out.println(x);
 	}
 //Q5
 	Scanner sc = new Scanner(System.in);
-	int num = sc.nextInt();
+	int num = Integer.parseInt( sc.nextLine());
 	if (num > 0) {
 		System.out.println("正の数です");
 	}else if (num == 0) {
@@ -44,15 +44,14 @@ public class Question2 {
 		System.out.println("負の数です");
 	}
 //Q6
-	int varue = sc.nextInt();
+	int varue = Integer.parseInt(sc.nextLine());
 	if (varue % 2 == 0) {
 		System.out.println("偶数です");
 	} else {
 		System.out.println("奇数です");
 	}
 //Q7
-	Scanner sc2 = new Scanner(System.in);
-	int score1 = sc2.nextInt();
+	int score1 = Integer.parseInt(sc.nextLine());
 	if (score1 >= 90) {
 		System.out.println("優");
 	} else if (score1 >= 70) {
@@ -63,14 +62,12 @@ public class Question2 {
 		System.out.println("不可");
 	}
 //Q8
-	Scanner sc3 = new Scanner(System.in);
-	String inport = sc3.nextLine();
+	String inport = sc.nextLine();
 	if (inport == null || inport.equals("")){
 		System.out.println("入力が無効です");
 	}
 //Q9
-	Scanner sc4 = new Scanner(System.in);
-	int day = sc4.nextInt();
+	int day = Integer.parseInt(sc.nextLine());
 	switch (day) {
 	case 1:
 		System.out.println("月曜日");
@@ -97,8 +94,7 @@ public class Question2 {
 		System.out.println("無効な入力です");
 	}
 //Q10
-	Scanner sc5 = new Scanner(System.in);
-	int mouth = sc5.nextInt();
+	int mouth = Integer.parseInt(sc.nextLine());
 	switch (mouth) {
 	    case 12:
 	    case 1:
