@@ -4,23 +4,23 @@ public class Question1 {
  public static void main(String[] args) {
  //Q1
 	 // 変数byteNumの初期値を設定
-	 byte byteNum;
+	 byte byteNum = 0;
 	 //変数shortNumの初期値を設定
-	 short shortNum;
+	 short shortNum = 0;
 	 //変数intNumの初期値を設定
-	 int intNum;
+	 int intNum = 0;
 	 //変数longNumの初期値を設定
-	 long longNum;
+	 long longNum = 0L;
 	 //変数floatNumの初期値を設定
-	 float floatNum;
+	 float floatNum = 0.0f;
 	 //変数doubleNumの初期値を設定
-	 double doubleNum;
+	 double doubleNum = 0.0;
 	 //変数letterの初期値を設定
-	 char letter;
+	 char letter = '\u0000';
 	 //変数lettersの初期値を設定
-	 String letters;
+	 String letters = null;
 	 //変数isBooleanの初期値を設定
-	 boolean isBoolean;
+	 boolean isBoolean = false;
 	 
 	 //Q2
 	 byteNum = 10; //byteNumに10を代入
@@ -74,8 +74,7 @@ public class Question1 {
 	 
 	 //Q7
 	 int score = 80; //scoreに80代入
-	 score = 20; //20に更新
-	 System.out.println(score + 80);
+	 System.out.println(score + 20);
 	 
 	 //Q8
 	 double price = 99.99; //priceに99.99代入
@@ -84,8 +83,8 @@ public class Question1 {
 	 
 	 //Q9
 	 String numStr = "123"; //numStrに"123"代入
-	 int Num = Integer.parseInt(numStr); //numStrをintに変換
-	 System.out.println(Num + 10);
+	 int num3 = Integer.parseInt(numStr); //numStrをintに変換
+	 System.out.println(num3 + 10);
 	 
 	 //Q10
 	 int num =50; //numに50代入
@@ -105,8 +104,8 @@ public class Question1 {
 	 
 	 //Q13
 	 String text = "私はJavaが好きです。Javaは楽しい！";
-	 String Text = "私はPythonが好きです。Pythonは楽しい！"; //javaをPythonに変更
-	 System.out.println(Text);
+	 String text1 = text.replace("Java","Python"); //javaをPythonに変更
+	 System.out.println(text1);
 	 }
 }
 
