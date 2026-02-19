@@ -105,7 +105,7 @@ public class Question1 {
 	 //Q13
 	 String text = "私はJavaが好きです。Javaは楽しい！";
 	 String text1 = text.replace("Java","Python"); //javaをPythonに変更
-	 System.out.println(text1);
+	 System.out.println(text1); 
 	 }
 }
 
