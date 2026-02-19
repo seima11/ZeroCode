@@ -44,8 +44,7 @@ public class Question2 {
 		System.out.println("負の数です");
 	}
 //Q6
-	Scanner sc1 = new Scanner(System.in);
-	int varue = sc1.nextInt();
+	int varue = sc.nextInt();
 	if (varue % 2 == 0) {
 		System.out.println("偶数です");
 	} else {
