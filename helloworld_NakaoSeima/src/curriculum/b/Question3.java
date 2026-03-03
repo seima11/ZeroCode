@@ -105,7 +105,7 @@ public class Question3 {
 				System.out.println(item + "は指定の商品ではありません");
 				break;
 			}
-		}
+		
 		sc.close(); 
 	}
 }
