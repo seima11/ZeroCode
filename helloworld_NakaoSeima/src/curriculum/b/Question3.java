@@ -106,6 +106,6 @@ public class Question3 {
 				break;
 			}
 		}
-		sc.close();
+		sc.close(); 
 	}
 }
