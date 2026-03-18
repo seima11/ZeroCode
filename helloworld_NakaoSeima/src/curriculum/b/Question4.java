@@ -58,6 +58,7 @@ public class Question4 {
 		for (int i = 0; i < q6.length; i++) {
 			if (q6[i] == input) {
 				found = true;
+				break;
 			}
 		}
 
@@ -89,6 +90,7 @@ public class Question4 {
 
 		for (int i = 0; i < array2.length; i++) {
 			for (int j = 0; j < array2[i].length; j++) {
+				sum2 += array2[i][j];
 			}
 		}
 
@@ -131,13 +133,14 @@ public class Question4 {
 		};
 
 		for (int i = 0; i < array4.length; i++) {
-			for (int j = 0; j < array4[4].length; j++) {
+			for (int j = 0; j < array4[i].length; j++) {
 				for (int k = 0; k < array4[i][j].length; k++) {
 
 					System.out.println(array4[i][j][k]);
 				}
 			}
 		}
+		scanner.close();
 
 	}
 }
